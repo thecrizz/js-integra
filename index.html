@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tecno ic</title>
+  </head>
+  <body>
+    <div class="overlay show-overlay"></div>
+    <header>
+			<a href="#">
+				<img class="logo-nav" src="img/logo.jpg" alt="logo" />
+			</a>
+      <nav class="nav-menu toggle-menu">
+        <ul class="nav-ul">
+          <li ><a class="nav-li" href="#rutinas-container">Productos</a></li>
+          <li ><a class="nav-li" href="#galeria-container">Galeria</a></li>
+          <li ><a class="nav-li" href="#tienda-container">Tienda</a></li>
+        </ul>
+      </nav>
+      <div class="icons-container">
+				<a href="login.html">
+					<span class="material-symbols-outlined user"> person </span>
+				</a>
+        <span class="material-symbols-outlined carrito"><p class="contador">1</p> shopping_cart </span>
+        <span class="material-symbols-outlined menu-hamburguesa"> menu </span>
+      </div>
+    </header>
+    <!-- Cart -->
+    <div class="cart-menu toggle-cart">
+      <button class="close-cart">x</button>
+      <h3 class="cart-tittle">Tus Productos</h3>
+      <div class="products-cart">
+        <!-- cart item -->
+        <!-- <div class="cart-item"> -->
+        <!--   <img -->
+        <!--     class="cart-img" -->
+        <!--     src="img/productos/rutinas/rutina-1.jpg" -->
+        <!--     alt="" -->
+        <!--   /> -->
+        <!--   <div class="item-info"> -->
+        <!--     <h3 class="item-tittle">Push/Pull/Legs</h3> -->
+        <!--     <p class="item-description">4 Meses</p> -->
+        <!--     <span class="item-price">$4500</span> -->
+        <!--   </div> -->
+        <!--   <div class="item-handler"> -->
+        <!--     <span class="quantity-handler down">-</span> -->
+        <!--     <span class="item-quantity">1</span> -->
+        <!--     <span class="quantity-handler up">+</span> -->
+        <!--   </div> -->
+        <!-- </div> -->
+      </div>
+      <div class="bot-container">
+        <div class="subtotal">
+          <div class="subtotal-container">
+            <p>Subtotal:</p>
+            <p class="subtotal-price"></p>
+          </div>
+          <div class="envio-container">
+            <p>Envio:</p>
+            <p class="envio-price"></p>
+          </div>
+        </div>
+        <div class="total">
+          <h3 class="total-tittle">Total:</h3>
+          <p class="total-price"></p>
+        </div>
+				<div class="btn-buyContainer">
+					<button class="btn-buy">Comprar</button>
+					<span class="spn-vaciar">Vaciar carrito</span>
+				</div>
+      </div>
+    </div>
+    <!-- HERO -->
+    <section class="hero-container">
+      <div class="hero">
+        <div class="filter"></div>
+      </div>
+    </section>
+    <section id="tienda-container">
+      <h2 class="tienda-tittle">Tienda</h2>
+      <div class="categories">
+        <button class="category active" data-category="remeras">
+          <img class="btn-icon" src="img/componentes/integrados/450_450-TQFP32.png" alt="remera" />
+          IC`s
+        </button>
+        <button class="category" data-category="gorras">
+          <img class="btn-icon" src="img/componentes/capacitores/codensador.jpeg" alt="gorra" />
+          Capacitores
+        </button>
+        <button class="category" data-category="tazas">
+          <img class="btn-icon" src="img/componentes/transistores/Transistor.jpg" alt="taza" />
+          Transistores
+        </button>
+        <button class="category" data-category="suplementos">
+          <img
+            class="btn-icon"
+            src="img/componentes/arduino/ardu-nano.png"
+            alt="mancuerna"
+          />
+          Arduino
+        </button>
+      </div>
+      <!-- Productos -->
+      <div class="products-container">
+        <!-- <div class="product"> -->
+        <!--   <img -->
+        <!--     src="img/productos/remeras/remera-blanca.png" -->
+        <!--     alt="remera-blanca" -->
+        <!--   /> -->
+        <!--   <div class="product-infoContainer"> -->
+        <!--     <div class="product-price-color"> -->
+        <!--       <p>Color:</p> -->
+        <!--       <p>Precio:</p> -->
+        <!--     </div> -->
+        <!--     <div class="product-price-color"> -->
+        <!--       <p class="color">Blanco</p> -->
+        <!--       <p class="price">$2200</p> -->
+        <!--     </div> -->
+        <!--   </div> -->
+        <!--   <div class="product-bot"> -->
+        <!--     <button -->
+        <!-- class="btn-add" -->
+        <!-- data-id="" -->
+        <!-- data-name="" -->
+        <!-- data-price="" -->
+        <!-- data-img="" -->
+        <!--     >Agregar al carrito</button> -->
+        <!--   </div> -->
+        <!-- </div> -->
+      </div>
+      <!-- fin Productos -->
+    </section>
+    <section id="galeria-container">
+      <h2 class="galeria-tittle">Galeria</h2>
+      <div class="galeria">
+        <img src="img/galeria/1.jpeg" alt="" />
+        <img src="img/galeria/2.jpeg" alt="" />
+        <img src="img/galeria/7.jpeg" alt="" />
+        <img src="img/galeria/4.jpeg" alt="" />
+        <img src="img/galeria/5.jpeg" alt="" />
+        <img src="img/galeria/6.jpeg" alt="" />
+      </div>
+    </section>
+
+    <section id="rutinas-container">
+      <h3 class="rutina-tittle">Productos</h3>
+      <div class="rutinas">
+        <!-- <div class="rutina"> -->
+        <!--   <h3 class="rutina-h3">Push Pull Legs</h3> -->
+        <!--   <img -->
+        <!--     class="rutina-img" -->
+        <!--     src="img/productos/rutinas/rutina-1.jpg" -->
+        <!--     alt="" -->
+        <!--   /> -->
+        <!--   <div class="rutina-info"> -->
+        <!--     <div class="info"> -->
+        <!--       <p>Duracion:</p> -->
+        <!--       <p>Precio:</p> -->
+        <!--     </div> -->
+        <!--     <div class="info"> -->
+        <!--       <p>3 meses</p> -->
+        <!--       <p>$3000</p> -->
+        <!--     </div> -->
+        <!--   </div> -->
+        <!--   <div class="btn-bot"> -->
+        <!--     <button -->
+        <!--       class="btn-add" -->
+        <!--       data-id="" -->
+        <!--       data-name="" -->
+        <!--       data-price="" -->
+        <!--       data-img="" -->
+        <!--     > -->
+        <!--       Agregar al carrito -->
+        <!--     </button> -->
+        <!--   </div> -->
+        <!-- </div> -->
+      </div>
+    </section>
+    <footer>
+			<a href="#">
+				<img class="logo-footer" src="img/logo.jpg" alt="logo-strong-fit" />
+			</a>
+      <div class="contacto-container">
+        <h3>Contactenos:</h3>
+        <div class="redes-container">
+          <a href="https://www.instagram.com/strong.tfit/" target="_blank"
+            ><img
+              class="redes-icon"
+              src="img/redes/instagram.png"
+              alt="instagram-logo"
+          /></a>
+					<img class="redes-icon" src="img/redes/facebook.png" alt="facebook-logo">
+					<img class="redes-icon" src="img/redes/youtube.png" alt="youtube-logo">
+					<img src="img/redes/email.png" alt="" class="redes-icon">
+        </div>
+      </div>
+    </footer>
+		<div class="addProduct-msg show-msg"><h3>El producto se agrego correctamente</h3></div>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
