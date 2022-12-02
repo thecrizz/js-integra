@@ -473,7 +473,7 @@ footer {
   font-size: 30px;
   font-weight: 900;
   background: -webkit-linear-gradient(#48a221, #7cfd00);
-  -webkit-background-clip: text;
+  /*-webkit-background-clip: text;*/
   -webkit-text-fill-color: transparent;
 }
 
