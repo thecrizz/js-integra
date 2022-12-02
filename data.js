@@ -194,6 +194,7 @@ const productData = [
 		img: "img/componentes/componentes/led-pira.jpg",
 		duration: "3 dias",
 		category: "rutinas",
+		description: "Hipertrofia",
 		envio: 100,
 	},
 ];
